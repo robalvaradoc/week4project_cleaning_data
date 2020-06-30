@@ -1,10 +1,11 @@
-#Tidy_data_Means set description
+# Tidy_data_Means set description
 
-###The variables in the tidy data
+### The variables in the tidy data
 Tidy data contains 180 observations and 88 variables. 
 
-###The data were averaged based on subject and activity group.
+### What the data represent?
 The data was grouped by Subject.ID and by Activity to calculate the mean of all the columns.
+
 Subject.ID column is numbered sequentially from 1 to 30. Activity column has 6 types as listed below.
 1.	WALKING
 2.	WALKING_UPSTAIRS
@@ -13,12 +14,12 @@ Subject.ID column is numbered sequentially from 1 to 30. Activity column has 6 t
 5.	STANDING
 6.	LAYING
 
-###Variable classes
+### Variable classes
 Subject.ID is an integer class
 Activity is a character class
 The rest of the Variables are numeric.
  
-###Listed Variables
+### Listed Variables
  [1] "Subject.ID"                                            
  [2] "Activity"                                              
  [3] "Time.BodyAccelerometer..mean...X"                      
